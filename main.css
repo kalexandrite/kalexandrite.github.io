@@ -36,7 +36,7 @@ a {
     padding-left: 30px;
     padding-bottom:
     text-align: left;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Silkscreen', sans-serif; 
     text-shadow: 1px 1px #ff9bfd;
     overflow:hidden;
@@ -91,41 +91,41 @@ a {
 
   /* Left column */
   .column.side {
-    width:30%;
+    width:40%;
     padding: 20px;
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 20px;
     padding-top: 10px;
     text-align: left;   
     font-family: 'Mukta', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.2;
     background-color: #ffb05f; 
   }
 
-   /* right column */
-    .column.sideb {
-      width: 20%;
-      padding: 15px;
-      padding-top: 10px;
-      padding-right: 10px;
-      line-height: 1.2;
-      text-align: left;
-      font-family: 'Mukta', sans-serif;
-      font-size: 12px;
-      background-color: rgb(255, 255, 144);
-    }
 
   /* Middle column */
   .column.middle {
-    width: 50%;
+    width: 60%;
     padding-top: 10px;
     padding-left: 15px; 
-    padding-right: 15px;   
+    padding-right: 20px;   
     font-family: 'Mukta', sans-serif;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.2;
+  }
+   /* right column */
+   .column.sideb {
+    width:
+    padding: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    line-height: 1.2;
+    text-align: left;
+    font-family: 'Mukta', sans-serif;
+    font-size: 11px;
+    background-color: rgb(255, 255, 144);
   }
 
   /* Clear floats after the columns */
@@ -142,10 +142,6 @@ a {
     }
   }
       /* Create 2 unequal columns that floats next to each other */
-  .footer{
-    float: left;
-    overflow:hidden;
-  }
 
   .footer.a {
     float: left;
@@ -172,7 +168,7 @@ a {
   clear: both;
 }
     /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-   @media screen and (max-width: 600px) {
+   @media screen and (max-width: 800px) {
     .footer.a, .footer.b, {
       width: 100%;
     }
