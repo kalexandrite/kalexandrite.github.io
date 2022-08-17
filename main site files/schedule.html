@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>cmac 240 class site</title> 
+    <meta charset="utf-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital@1&family=Silkscreen&display=swap" rel="stylesheet">
+
+    <style>
+      <link rel="stylesheet" href="main.css">
+    
+      * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .header {
+      background-color: #aecaf3;
+      padding: 8px;
+      padding-left: 50px;
+      text-align: left;
+      font-size: 22px;
+      font-family: 'Silkscreen', sans-serif; 
+    }
+
+    /* style for top navigation bar */
+    .topnav {
+      overflow:hidden;
+      background-color: rgb(232, 99, 210);
+  
+    }
+
+    /* Style the top nav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #5fffb4;
+      text-align: right;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border:dotted 2px;
+      margin-left: 50px;
+      padding-right: 20px;
+      padding-left: 20px;
+      text-decoration: none;
+      font-family: 'Roboto', 'Lato', sans-serif;
+      text-shadow: 1px 1px #042516;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: rgb(255, 255, 144);
+      color: rgb(101, 36, 255);
+    }
+
+    /* Create three unequal columns that floats next to each other */
+    .column {
+      float: left;
+      padding: 10px;
+      background-color: #5fffb4;
+    }
+
+    /* Left and right column */
+    .column.side {
+      width: 25%;
+    }
+
+    /* Middle column */
+    .column.middle {
+      width: 50%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) 
+      .column.side, .column.middle {
+        width: 100%;
+  }
+
+    </style>
+  </head>
+<body>
+
+<div class="header">
+  <h1>Intro to Web Design <i>CMAC 240</i><h1>
+  <p></p>
+  </div>
+
+  <div class="topnav">
+
+  <a href="index.html">home</a>
+  <a href="main site files/assignments.html">assignments</a>
+  <a href="main site files/schedule.html">schedule</a>
+</div>
+</div>
+    
+  </body>
+</html>
