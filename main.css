@@ -1,6 +1,17 @@
 /* Lato:ital,wght@0,300;0,700;1,900&family=Mukta:wght@200;500;600;800&family=Roboto:ital,wght@0,300;0,900;1,500&family=Silkscreen&display=swap" rel="stylesheet"> */
 
+h2 {
+  font: center;
+}
 
+a {
+  color: #f8f8e9;
+  font-size:medium
+  font-family: 'Mukta';
+  text-shadow: 1px 1px #0080ff;
+  font-weight: 400;
+  text-decoration: none;
+}
 .p{
     font-family: 'Silkscreen','Lato', sans-serif;
 }
@@ -10,44 +21,57 @@
   }
 
   body {
-    margin: 0;
+    margin: 0;        
+    background-color: #aecaf3;
   }
 
   .header {
     font-family: 'Silkscreen','Lato', sans-serif;
     background-color: #aecaf3;
-    padding: 8px;
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-bottom:
     text-align: left;
-    font-size: 22px;
+    font-size: 16px;
     font-family: 'Silkscreen', sans-serif; 
+    text-shadow: 1px 1px #ff9bfd;
+    overflow:hidden;
   }
 
   /* style for top navigation bar */
   .topnav {
     overflow:hidden;
     background-color: rgb(232, 99, 210);
-
   }
 
   /* Style the top nav links */
   .topnav a {
     float: left;
-    display: block;
+    display:block;
     color: #5fffb4;
-    text-align: center;
+    text-align: right;
     padding-top: 5px;
     padding-bottom: 5px;
-    border:dashed 2px rgb(255, 255, 144);
-    margin-left: 50px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
     text-decoration: none;
-    font-family: 'Mukta', 'Lato', sans-serif;
+    font-family: 'Mukta',sans-serif;
     font-weight: 600;
+    font-size: 15px;
     text-shadow: 1px 1px #042516;
   }
 
+  .resources { 
+    font-family: 'Mukta', sans-serif;
+    font-weight: 200;
+    kerning: 3px;
+    line-height: 1.4;
+    padding: 30px;
+    font-style: normal;
+    color: #f048b8;
+    text-shadow: 1px 1px #000000;
+    background-color: #00bf66;
+  
+  }
   /* Change color on hover */
   .topnav a:hover {
     background-color: rgb(255, 255, 144);
@@ -57,18 +81,42 @@
   /* Create three unequal columns that floats next to each other */
   .column {
     float: left;
-    padding: 10px;
     background-color:#00bf66;
   }
 
-  /* Left and right column */
+  /* Left column */
   .column.side {
     width: 25%;
+    padding: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;   
+    font-family: 'Mukta', sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    background-color: #ffb05f; 
   }
+
+   /* right column */
+    .column.sideb {
+      width: 20%;
+      padding: 15px;
+      padding-top: 10px;
+      line-height: 1.2;
+      text-align: left;
+      font-family: 'Mukta', sans-serif;
+      font-size: 12px;
+      background-color: rgb(255, 255, 144);
+    }
 
   /* Middle column */
   .column.middle {
-    width: 50%;
+    width: 55%;
+    padding-top: 0px;
+    padding-left: 15px; 
+    padding-right: 15px;   
+    font-family: 'Mukta', sans-serif;
+    font-weight: 200
   }
 
   /* Clear floats after the columns */
@@ -79,20 +127,85 @@
   }
 
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) 
-    .column.side, .column.middle {
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle, .column.sideb, {
       width: 100%;
-}
+    }
+  }
+      /* Create 2 unequal columns that floats next to each other */
+  .footer{
+    float: left;
+    overflow:hidden;
+  }
 
-.resources { 
-  font-family: 'Mukta', sans-serif;
-  font-weight: 200;
-  kerning: 3px;
-  line-height: 1.4;
-  margin: 25px;
-  padding: 20px;
-  font-style: normal;
-  color: #ff6fcf;
-  
+  .footer.a {
+    float: left;
+    width: 50%;
+    background-color:rgb(232, 99, 210);
+    overflow:hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer.b {
+    float: left;
+    width: 50%;
+    align-items: right;
+    overflow:hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(232, 99, 210);
+  }
 
+/* Clear floats after the columns */
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
 }
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+   @media screen and (max-width: 600px) {
+    .footer.a, .footer.b, {
+      width: 100%;
+    }
+  }
+
+  /* Create 2 unequal columns that floats next to each other */
+ 
+   .calendar {
+    float:left;
+    width: 30%;
+    padding-left:20px;
+    padding-right: 10px;
+    font-family: 'Mukta', sans-serif;
+    line-height: 1.1;
+    text-justify: left;
+    background-color:#00bf66;
+    text-shadow: 1px 1px #f048b8;
+
+  }
+  .specific.assignments {
+    float:right;
+    width: 70%;
+    font-family: 'Mukta', sans-serif;
+    background-color:#ffff6f;
+    padding-left:20px;
+    padding-right: 10px;
+    line-height: 1.1;
+    text-justify: left;
+    color: #f048b8;
+    text-shadow: 1px 1px #000000;
+  }
+
+    /* Clear floats after the columns */
+    .assignment:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+   @media screen and (max-width: 600px) {
+    .calendar, .specific.assignments, {
+      width: 100%;
+    }
+  }
