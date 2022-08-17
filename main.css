@@ -4,6 +4,11 @@ h2 {
   font: center;
 }
 
+h3 {
+  font-family: 'Mukta';
+  text-shadow: 1px 1px #0080ff;
+}
+
 a {
   color: #f8f8e9;
   font-size:medium
@@ -86,13 +91,14 @@ a {
 
   /* Left column */
   .column.side {
-    width: 25%;
+    width:30%;
     padding: 20px;
     padding-left: 20px;
+    padding-right: 10px;
     padding-top: 10px;
     text-align: left;   
     font-family: 'Mukta', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.2;
     background-color: #ffb05f; 
   }
@@ -102,6 +108,7 @@ a {
       width: 20%;
       padding: 15px;
       padding-top: 10px;
+      padding-right: 10px;
       line-height: 1.2;
       text-align: left;
       font-family: 'Mukta', sans-serif;
@@ -111,12 +118,14 @@ a {
 
   /* Middle column */
   .column.middle {
-    width: 55%;
-    padding-top: 0px;
+    width: 50%;
+    padding-top: 10px;
     padding-left: 15px; 
     padding-right: 15px;   
     font-family: 'Mukta', sans-serif;
-    font-weight: 200
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 1.2;
   }
 
   /* Clear floats after the columns */
