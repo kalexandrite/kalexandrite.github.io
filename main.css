@@ -5,21 +5,29 @@ h1 {
 }
 h2 {
   font: center;
+  text-shadow: 1px 1px #00050a;
 }
 
 h3 {
-  font-size: 1.6em;
-  text-shadow: 1px 1px #5aa6f3;
+  font-size: 1.3em;
+  text-shadow: 1px 1px #c4e2ff;
 }
 
 a {
   color: #f8f8e9;
   font-size:1em;
   font-family: 'Mukta';
-  text-shadow: 1px 1px #5aa6f3;
+  text-shadow: 1px 1px #081e34;
   font-weight: 400;
   text-decoration: none;
 }
+.readings{
+  font-family: 'Silkscreen','Lato', sans-serif;
+  color: #5aa6f3;
+  font-size: 1.4em;
+
+}
+
 .p{
     font-family: 'Silkscreen','Lato', sans-serif;
 }
@@ -194,21 +202,21 @@ a {
     text-justify: left;
     background-color:#00bf66;
     text-shadow: 1px 1px #f048b8;
-    height: 900px;
+  
 
   }
   .specific.assignments {
     float:right;
     width: 70%;
     font-family: 'Mukta', sans-serif;
-    background-color:#ffff6f;
+    background-color:#362e8d;
     padding-left:20px;
     padding-right: 10px;
     line-height: 1.1;
     text-justify: left;
     color: #f048b8;
     text-shadow: 1px 1px #000000;
-    height: 900px;
+  
   }
 
 
@@ -225,3 +233,12 @@ a {
       clear: all;
     }
 
+    .schedulefull {
+      margin: 40px;
+      font-family: 'Roboto';
+      color: rgb(255, 255, 144);
+      height:1200px;
+      font-family: 'Mukata', sans-serif;
+      
+
+    }

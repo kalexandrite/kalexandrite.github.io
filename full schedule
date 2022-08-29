@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>cmac 240 class site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,900&family=Mukta:wght@200;500;600;800&family=Roboto:ital,wght@0,300;0,900;1,500&family=Silkscreen&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <style>
+    </style>
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+        <h1>WEB-BASED MULTIMEDIA COMMUNICATION <br><i>ISS, VMS, CMAC 240L & 740L </i>
+        </h1><img src="images/divider_78.gif" alt="Frog gif" width="700px">
+
+    </div>
+    <div class="topnav">
+        <!--menu items-->
+        <a href="index.html">home</a>
+        <a href="assignments.html">assignments</a>
+        <a href="resources.html">resources</a>
+        <a href="full schedule">weekly schedule</a>
+    </div>
+    <div class="row">
+        
+        <div class="schedulefull">
+            <h3>Class Schedule</h3>
+        <iframe id="Class Schedule with Themes" src="images/excel/Class Schedule with Themes.htm" frameborder="0" width="90%" height="80%"></iframe>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
