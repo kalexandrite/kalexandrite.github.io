@@ -75,7 +75,7 @@ td
 	mso-font-charset:0;
 	text-align:center;
 	border:.5pt dotted #ACEAF9;
-	background:#00B050;
+	background:yellow;
 	mso-pattern:black none;}
 .xl69
 	{mso-style-parent:style0;
@@ -83,37 +83,18 @@ td
 	font-family:"Avenir Roman";
 	mso-generic-font-family:auto;
 	mso-font-charset:0;
-	text-align:center;
 	border:.5pt dotted #ACEAF9;
 	background:yellow;
 	mso-pattern:black none;}
 .xl70
 	{mso-style-parent:style0;
-	font-size:16.0pt;
-	font-family:"Avenir Roman";
-	mso-generic-font-family:auto;
+	font-size:11.0pt;
+	font-family:"MuktaMahee Regular", sans-serif;
 	mso-font-charset:0;
 	border:.5pt dotted #ACEAF9;
 	background:yellow;
 	mso-pattern:black none;}
 .xl71
-	{mso-style-parent:style0;
-	font-size:11.0pt;
-	font-family:"MuktaMahee Regular", sans-serif;
-	mso-font-charset:0;
-	text-align:center;
-	border:.5pt dotted #ACEAF9;
-	background:#00B050;
-	mso-pattern:black none;}
-.xl72
-	{mso-style-parent:style0;
-	font-size:11.0pt;
-	font-family:"MuktaMahee Regular", sans-serif;
-	mso-font-charset:0;
-	border:.5pt dotted #ACEAF9;
-	background:yellow;
-	mso-pattern:black none;}
-.xl73
 	{mso-style-parent:style0;
 	color:black;
 	font-size:11.0pt;
@@ -122,14 +103,14 @@ td
 	border:.5pt dotted #ACEAF9;
 	background:#B6DBEF;
 	mso-pattern:black none;}
-.xl74
+.xl72
 	{mso-style-parent:style0;
 	color:black;
 	font-size:11.0pt;
 	font-family:"MuktaMahee Regular", sans-serif;
 	mso-font-charset:0;
 	border:.5pt dotted #ACEAF9;}
-.xl75
+.xl73
 	{mso-style-parent:style0;
 	color:black;
 	font-size:11.0pt;
@@ -138,7 +119,7 @@ td
 	border:.5pt dotted #ACEAF9;
 	background:#F7D0D0;
 	mso-pattern:black none;}
-.xl76
+.xl74
 	{mso-style-parent:style0;
 	font-size:11.0pt;
 	font-family:"MuktaMahee Regular", sans-serif;
@@ -147,7 +128,7 @@ td
 	border:.5pt dotted #ACEAF9;
 	background:yellow;
 	mso-pattern:black none;}
-.xl77
+.xl75
 	{mso-style-parent:style0;
 	font-size:11.0pt;
 	font-family:"MuktaMahee Regular", sans-serif;
@@ -155,13 +136,87 @@ td
 	border:.5pt dotted #ACEAF9;
 	background:#B6DBEF;
 	mso-pattern:black none;}
+.xl76
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"MuktaMahee Regular", sans-serif;
+	mso-font-charset:0;
+	border:.5pt dotted #ACEAF9;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl77
+	{mso-style-parent:style0;
+	color:black;
+	font-size:11.0pt;
+	font-family:"MuktaMahee Regular", sans-serif;
+	mso-font-charset:0;
+	border:.5pt dotted #ACEAF9;
+	background:#B6DBEF;
+	mso-pattern:black none;
+	white-space:normal;}
 .xl78
 	{mso-style-parent:style0;
-	font-size:10.0pt;
+	color:black;
+	font-size:11.0pt;
+	font-family:"MuktaMahee Regular", sans-serif;
+	mso-font-charset:0;
+	border:.5pt dotted #ACEAF9;
+	white-space:normal;}
+.xl79
+	{mso-style-parent:style0;
+	color:black;
+	font-size:11.0pt;
+	font-family:"MuktaMahee Regular", sans-serif;
+	mso-font-charset:0;
+	border:.5pt dotted #ACEAF9;
+	background:#F7D0D0;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl80
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"MuktaMahee Regular", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt dotted #ACEAF9;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl81
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"MuktaMahee Regular", sans-serif;
+	mso-font-charset:0;
+	border:.5pt dotted #ACEAF9;
+	background:#B6DBEF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl82
+	{mso-style-parent:style0;
 	font-family:"Avenir Roman";
 	mso-generic-font-family:auto;
 	mso-font-charset:0;
-	text-align:center;
+	border:.5pt dotted #ACEAF9;
+	background:#B6DBEF;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl83
+	{mso-style-parent:style0;
+	font-family:"MuktaMahee Regular", sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	vertical-align:middle;
+	border:.5pt dotted #ACEAF9;
+	background:#00B050;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl84
+	{mso-style-parent:style0;
+	font-family:"MuktaMahee Regular", sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	vertical-align:middle;
 	border:.5pt dotted #ACEAF9;
 	background:#00B050;
 	mso-pattern:black none;}
