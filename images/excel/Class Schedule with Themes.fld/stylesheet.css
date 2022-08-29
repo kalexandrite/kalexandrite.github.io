@@ -17,12 +17,39 @@ br
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
-	font-family:"MuktaMahee Regular", sans-serif;
+	font-family:"Century Gothic", sans-serif;
 	mso-font-charset:0;
 	border:none;
 	mso-protection:locked visible;
 	mso-style-name:Normal;
 	mso-style-id:0;}
+.font9
+	{color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font11
+	{color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font12
+	{color:black;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
 td
 	{mso-style-parent:style0;
 	padding-top:1px;
@@ -34,7 +61,7 @@ td
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
-	font-family:"MuktaMahee Regular", sans-serif;
+	font-family:"Century Gothic", sans-serif;
 	mso-font-charset:0;
 	mso-number-format:General;
 	text-align:general;
@@ -47,7 +74,7 @@ td
 	mso-rotate:0;}
 .xl65
 	{mso-style-parent:style0;
-	font-family:"MuktaMahee Regular", sans-serif;
+	font-family:"Avenir Roman";
 	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	border:.5pt dotted #ACEAF9;
@@ -55,13 +82,13 @@ td
 	mso-pattern:black none;}
 .xl66
 	{mso-style-parent:style0;
-	font-family:"MuktaMahee Regular", sans-serif;
+	font-family:"Avenir Roman";
 	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	border:.5pt dotted #ACEAF9;}
 .xl67
 	{mso-style-parent:style0;
-	font-family:"MuktaMahee Regular", sans-serif;
+	font-family:"Avenir Roman";
 	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	border:.5pt dotted #ACEAF9;
@@ -220,3 +247,83 @@ td
 	border:.5pt dotted #ACEAF9;
 	background:#00B050;
 	mso-pattern:black none;}
+.xl85
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt dotted #ACEAF9;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl86
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt dotted #ACEAF9;
+	background:#B6DBEF;
+	mso-pattern:black none;}
+.xl87
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt dotted #ACEAF9;}
+.xl88
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt dotted #ACEAF9;
+	background:yellow;
+	mso-pattern:black none;}
+.xl89
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt dotted #ACEAF9;
+	background:#F7D0D0;
+	mso-pattern:black none;}
+.xl90
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt dotted #ACEAF9;
+	background:yellow;
+	mso-pattern:black none;}
+.xl91
+	{mso-style-parent:style0;
+	color:black;
+	font-size:11.0pt;
+	font-family:"MuktaMahee Regular", sans-serif;
+	mso-font-charset:0;
+	vertical-align:top;
+	border:.5pt dotted #ACEAF9;
+	white-space:normal;}
+.xl92
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	vertical-align:top;
+	border:.5pt dotted #ACEAF9;
+	white-space:normal;}
+.xl93
+	{mso-style-parent:style0;
+	font-family:"Avenir Roman";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	vertical-align:top;
+	border:.5pt dotted #ACEAF9;
+	white-space:normal;}
