@@ -82,10 +82,11 @@ a {
     font-family: 'Mukta', sans-serif;
     font-weight: 200;
     kerning: 3px;
+    font-size: 1.1em;
     line-height: 1.4em;
     padding: 30px;
     font-style: normal;
-    color: #f048b8;
+    color: #df30a5;
     text-shadow: 1px 1px #000000;
     background-color: #00bf66;
   
