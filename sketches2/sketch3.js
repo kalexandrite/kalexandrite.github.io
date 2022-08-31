@@ -1,7 +1,7 @@
 let t = 0; // time variable
 
 function setup() {
-  createCanvas(1200, 200);
+  createCanvas(2000, 200);
   noStroke();
   fill(155, 100, 180);
 }
