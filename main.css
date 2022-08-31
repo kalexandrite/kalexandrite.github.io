@@ -142,16 +142,14 @@ body {
 
 .resources {
   font-family: 'Mukta', sans-serif;
-  font-weight: 200;
+  font-weight: 500;
   kerning: 3px;
-  font-size: 1.1em;
-  line-height: 1.4em;
+  font-size: 1em;
+  line-height: 1.3em;
   padding: 30px;
-  font-style: normal;
   color: #df30a5;
   text-shadow: 1px 1px #000000;
-  background-color: #00bf66;
-
+  background-color:#00bf66;
 }
 
 /* Change color on hover */
@@ -175,11 +173,11 @@ body {
   padding-top: 10px;
   text-align: left;
   font-family: 'Mukta', sans-serif;
-  font-size: .85em;
-  line-height: 1.2;
+  font-size: .8em;
+  line-height: 1.1;
   background-color: #ffb05f;
   height: 1000px;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 /* Middle column */
@@ -196,7 +194,7 @@ body {
 
 /* right column */
 .column.sideb {
-  width: 0
+  width: 0;
   object-position: center;
   padding-top: 10px;
   padding-right: 20px;
@@ -286,7 +284,7 @@ body {
   background-color: #ffddf6;
   padding-left: 30px;
   padding-right: 30px;
-  line-height: 1.;
+  line-height: 1em;
   text-justify: left;
   color: #350e28;
   
