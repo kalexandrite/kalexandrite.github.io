@@ -3,6 +3,7 @@
 h1 {
   font-size: 2em;
 }
+
 h2 {
   font: center;
   text-shadow: 1px 1px #00050a;
@@ -15,168 +16,234 @@ h3 {
 
 a {
   color: #f8f8e9;
-  font-size:1em;
+  font-size: 1em;
   font-family: 'Mukta';
-  text-shadow: 1px 1px #081e34;
+  text-shadow: 1px 1px #010102;
   font-weight: 400;
   text-decoration: none;
 }
-.readings{
+
+.highlight{
+  color: rgb(255, 255, 84);
+  text-shadow: 1px 1px #000000;
+}
+.highlight2{
+  color:rgb(232, 99, 210);
+  text-shadow: 1px 1px #000000;
   font-family: 'Silkscreen','Lato', sans-serif;
+}
+.highlight3{
+  color: #00bf66;
+  text-shadow: 1px 1px #000000;
+  font-family: 'Silkscreen','Lato', sans-serif;
+}  
+
+.readings {
+  font-family: 'Silkscreen', 'Lato', sans-serif;
   color: #5aa6f3;
   font-size: 1.4em;
 
 }
 
-.p{
-    font-family: 'Silkscreen','Lato', sans-serif;
+.p {
+  font-family: 'Silkscreen', 'Lato', sans-serif;
 }
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  body {
-    margin: 0;        
-    background-color: #aecaf3;
-  }
+body {
+  margin: 0;
+  background-color: #aecaf3;
+}
 
-  .header {
-    font-family: 'Silkscreen','Lato', sans-serif;
-    background-color: #aecaf3;
-    padding-left: 30px;
-    padding: bottom 0;
-    text-align: left;
-    font-size: 1.1em;
-    font-family: 'Silkscreen', sans-serif; 
-    text-shadow: 1px 1px #ff9bfd;
-    overflow:hidden;
-  }
 
-  /* style for top navigation bar */
-  .topnav {
-    overflow:hidden;
-    background-color: rgb(232, 99, 210);
-    font-size: 1.2em;
+.container {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Silkscreen', sans-serif;
+  font-weight: 800;
+  color: #01021c;
+}
 
-  }
+.panel {
+  margin-bottom: 20px;
+  background-color: rgb(232, 99, 210);
+  border: 4px solid transparent;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+}
 
-  /* Style the top nav links */
-  .topnav a {
-    float: left;
-    display:block;
-    color: #5fffb4;
-    text-align: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 25px;
-    padding-left: 25px;
-    text-decoration: none;
-    font-family: 'Mukta',sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    text-shadow: 1px 1px #042516;
-  }
+.panel-body {
+  padding: 30px;
+}
 
-  .resources { 
-    font-family: 'Mukta', sans-serif;
-    font-weight: 200;
-    kerning: 3px;
-    font-size: 1.1em;
-    line-height: 1.4em;
-    padding: 30px;
-    font-style: normal;
-    color: #df30a5;
-    text-shadow: 1px 1px #000000;
-    background-color: #00bf66;
-  
-  }
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: rgb(255, 255, 144);
-    color: #ff6666;
-  }
+.panel-heading {
+  padding: 10px 10px;
+  border-bottom: 2px solid transparent;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px
+}
 
-  /* Create three unequal columns that floats next to each other */
-  .column {
-    float: left;
-    background-color:#00bf66;
-  }
+.panel-heading>.dropdown .dropdown-toggle {
+  color: inherit;
+}
 
-  /* Left column */
-  .column.side {
-    width:30%;
-    padding: 20px;
-    padding-left: 25px;
-    padding-right: 20px;
-    padding-top: 10px;
-    text-align: left;   
-    font-family: 'Mukta', sans-serif;
-    font-size: .9em;
-    line-height: 1.2;
-    background-color: #ffb05f; 
-    height: 900px;
-    overflow:hidden;
-  }
 
-  /* Middle column */
-  .column.middle {
-    width: 40%;
-    padding-top: 5px;
-    padding-left: 40px; 
-    padding-right: 10px;   
-    font-family: 'Mukta', sans-serif;
-    height: 900px;
-    overflow:scroll;
-    overflow-x: hidden;
-    z-index: -1;
-  }
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #5af397;
+  font-family: 'Mukata', sans-serif;
+  font-weight: 800;
+}
 
-   /* right column */
-   .column.sideb {
-    width:30%;
-    object-position: center;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-left: 40px;
-    text-align: left;
-    font-family: 'Mukta', sans-serif;
-    background-color: rgb(255, 255, 144);
-    height: 900px;
-  }
+.header {
+  font-family: 'Silkscreen', 'Lato', sans-serif;
+  background-color: #aecaf3;
+  padding-left: 30px;
+  padding: bottom 0;
+  text-align: left;
+  font-size: 1.1em;
+  font-family: 'Silkscreen', sans-serif;
+  text-shadow: 1px 1px #ff9bfd;
+  overflow: hidden;
+}
 
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+/* style for top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(232, 99, 210);
+  font-size: 1.2em;
 
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-      @media screen and (max-width: 800px) {
-        .column.side, .column.middle, .column.sideb, {
-          width: 100%;
-        }
-      }
+}
 
-  .footer.a {
-    float: left;
-    width: 50%;
-    background-color:rgb(232, 99, 210);
-    overflow:hidden;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    z-index: 1;
-  }
-  .footer.b {
-    float: left;
-    width: 50%;
-    align-items: right;
-    overflow:hidden;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color:rgb(232, 99, 210);
-  }
+/* Style the top nav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #5fffb4;
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-decoration: none;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-shadow: 1px 1px #042516;
+}
+
+.resources {
+  font-family: 'Mukta', sans-serif;
+  font-weight: 200;
+  kerning: 3px;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  padding: 30px;
+  font-style: normal;
+  color: #df30a5;
+  text-shadow: 1px 1px #000000;
+  background-color: #00bf66;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(255, 255, 144);
+  color: #ff6666;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  background-color: #00bf66;
+}
+
+/* Left column */
+.column.side {
+  width: 30%;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-align: left;
+  font-family: 'Mukta', sans-serif;
+  font-size: .85em;
+  line-height: 1.2;
+  background-color: #ffb05f;
+  height: 1000px;
+  overflow: hidden;
+}
+
+/* Middle column */
+.column.middle {
+  width: 70%;
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right: 10px;
+  font-family: 'Mukta', sans-serif;
+  height: 1000px;
+  overflow-x: hidden;
+  scrollbar-color: #ffb05f;
+}
+
+/* right column */
+.column.sideb {
+  width: 0
+  object-position: center;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 40px;
+  text-align: left;
+  font-family: 'Mukta', sans-serif;
+  background-color: rgb(255, 255, 144);
+  height: 900px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+  .column.side,
+  .column.middle,
+  .column.sideb,
+  {
+  width: 100%;
+}
+}
+
+.footer.a {
+  float: left;
+  width: 50%;
+  background-color: rgb(232, 99, 210);
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+}
+
+.footer.b {
+  float: left;
+  width: 50%;
+  align-items: right;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(232, 99, 210);
+}
 
 /* Clear floats after the columns */
 .footer:after {
@@ -185,61 +252,237 @@ a {
   clear: both;
 }
 
-    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-   @media screen and (max-width: 800px) {
-    .footer.a, .footer.b, {width 100%;}
-    }
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+  .footer.a,
+  .footer.b,
+  {
+  width 100%;
+}
+}
+
+
+/* Create 2 unequal columns that floats next to each other */
+
+.calendar {
+  float: left;
+  width: 0%;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-family: 'Mukta', sans-serif;
+  line-height: 1.1;
+  text-justify: left;
+  background-color: #00bf66;
+  text-shadow: 1px 1px #f048b8;
+
+
+}
+
+.specific.assignments {
+  float: right;
+  width: 100%;
+  font-family: 'Mukta', sans-serif;
+  background-color: #ffddf6;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 1.;
+  text-justify: left;
+  color: #350e28;
   
 
-  /* Create 2 unequal columns that floats next to each other */
- 
-   .calendar {
-    float:left;
-    width: 30%;
-    padding-left:20px;
-    padding-right: 10px;
-    font-family: 'Mukta', sans-serif;
-    line-height: 1.1;
-    text-justify: left;
-    background-color:#00bf66;
-    text-shadow: 1px 1px #f048b8;
-  
-
-  }
-  .specific.assignments {
-    float:right;
-    width: 70%;
-    font-family: 'Mukta', sans-serif;
-    background-color:#362e8d;
-    padding-left:20px;
-    padding-right: 10px;
-    line-height: 1.1;
-    text-justify: left;
-    color: #f048b8;
-    text-shadow: 1px 1px #000000;
-  
-  }
+}
 
 
 
-    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-   @media screen and (max-width: 600px) {
-    .calendar, .specific.assignments, {width: 100%;}
-  }
- 
-    /* Clear floats after the columns */
-    .assignment:after {
-      content: "";
-      display: table;
-      clear: all;
-    }
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
 
-    .schedulefull {
-      margin: 40px;
-      font-family: 'Roboto';
-      color: rgb(255, 255, 144);
-      height:1200px;
-      font-family: 'Mukata', sans-serif;
-      
+  .calendar,
+  .specific.assignments,
+  {
+  width: 100%;
+}
+}
 
-    }
+/* Clear floats after the columns */
+.assignment:after {
+  content: "";
+  display: table;
+  clear: all;
+}
+
+.schedulefull {
+  margin: 40px;
+  font-family: 'Roboto';
+  color: rgb(255, 255, 144);
+  height: 1200px;
+  font-family: 'Mukata', sans-serif;
+
+}
+
+.panel-title>.small,
+.panel-title>.small>a,
+.panel-title>a,
+.panel-title>small,
+.panel-title>small>a {
+  color: inherit;
+  font-family: 'Silkscreen', sans-serif;
+  font-weight: 800;
+}
+
+.panel>.panel-collapse>.table,
+.panel>.table,
+.panel>.table-responsive>.table {
+  margin-bottom: 0
+}
+
+.panel>.panel-collapse>.table caption,
+.panel>.table caption,
+.panel>.table-responsive>.table caption {
+  padding-right: 10px;
+  padding-left: 10px
+}
+
+.panel>.table-responsive:first-child>.table:first-child,
+.panel>.table:first-child {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px
+}
+
+.panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child,
+.panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child,
+.panel>.table:first-child>tbody:first-child>tr:first-child,
+.panel>.table:first-child>thead:first-child>tr:first-child {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px
+}
+
+.panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child td:first-child,
+.panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child th:first-child,
+.panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child td:first-child,
+.panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child th:first-child,
+.panel>.table:first-child>tbody:first-child>tr:first-child td:first-child,
+.panel>.table:first-child>tbody:first-child>tr:first-child th:first-child,
+.panel>.table:first-child>thead:first-child>tr:first-child td:first-child,
+.panel>.table:first-child>thead:first-child>tr:first-child th:first-child {
+  border-top-left-radius: 3px
+}
+
+.panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child td:last-child,
+.panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child th:last-child,
+.panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child td:last-child,
+.panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child th:last-child,
+.panel>.table:first-child>tbody:first-child>tr:first-child td:last-child,
+.panel>.table:first-child>tbody:first-child>tr:first-child th:last-child,
+.panel>.table:first-child>thead:first-child>tr:first-child td:last-child,
+.panel>.table:first-child>thead:first-child>tr:first-child th:last-child {
+  border-top-right-radius: 3px
+}
+
+.panel>.table-responsive:last-child>.table:last-child,
+.panel>.table:last-child {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px
+}
+
+.panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child,
+.panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child,
+.panel>.table:last-child>tbody:last-child>tr:last-child,
+.panel>.table:last-child>tfoot:last-child>tr:last-child {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px
+}
+
+.panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child td:first-child,
+.panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child th:first-child,
+.panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child td:first-child,
+.panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child th:first-child,
+.panel>.table:last-child>tbody:last-child>tr:last-child td:first-child,
+.panel>.table:last-child>tbody:last-child>tr:last-child th:first-child,
+.panel>.table:last-child>tfoot:last-child>tr:last-child td:first-child,
+.panel>.table:last-child>tfoot:last-child>tr:last-child th:first-child {
+  border-bottom-left-radius: 3px
+}
+
+.panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child td:last-child,
+.panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child th:last-child,
+.panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child td:last-child,
+.panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child th:last-child,
+.panel>.table:last-child>tbody:last-child>tr:last-child td:last-child,
+.panel>.table:last-child>tbody:last-child>tr:last-child th:last-child,
+.panel>.table:last-child>tfoot:last-child>tr:last-child td:last-child,
+.panel>.table:last-child>tfoot:last-child>tr:last-child th:last-child {
+  border-bottom-right-radius: 3px
+}
+
+
+.panel-footer {
+  padding: 12px 15px;
+
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-family: 'Silkscreen', sans-serif;
+  color: #fffec5;
+}
+
+.list-group {
+  padding-left: 0;
+  margin-bottom: 20px;
+  font-family: 'Mukata', sans-serif;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  font-size: 1em;
+  background-color: rgb(254, 253, 233);
+  border: 1px solid #ddd;
+  font-family: 'Mukta', sans-serif;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.collapse {
+  display: none
+}
+
+.collapse.in {
+  display: block
+}
+
+tr.collapse.in {
+  display: table-row
+}
+
+tbody.collapse.in {
+  display: table-row-group
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  -o-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: .35s;
+  -o-transition-duration: .35s;
+  transition-duration: .35s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease
+}
