@@ -166,11 +166,11 @@ body {
 
 /* Left column */
 .column.side {
-  width: 30%;
+  width: 35%;
   padding: 20px;
   padding-left: 25px;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 15px;
   text-align: left;
   font-family: 'Mukta', sans-serif;
   font-size: .8em;
@@ -182,7 +182,7 @@ body {
 
 /* Middle column */
 .column.middle {
-  width: 70%;
+  width: 65%;
   padding-top: 5px;
   padding-left: 40px;
   padding-right: 10px;
