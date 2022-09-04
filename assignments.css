@@ -30,6 +30,18 @@ h1 {
   font-family: 'Silkscreen','Lato', sans-serif;
 }  
 
+.normal 
+{
+  line-height: 90%;
+}
+
+.normal2 
+{
+  line-height: 60%;
+  padding: 3%;
+  font-size: 90%;
+}
+
   a {
     color: #621091;
     font-size:1em;
@@ -43,6 +55,10 @@ h1 {
     font-size: 1.4em;
   
   }
+
+  .assignments{
+    margin: 5%;
+  }
   
   .p{
       font-family: 'Silkscreen','Lato', sans-serif;
@@ -55,7 +71,10 @@ h1 {
   
     body {
       margin: 0px;        
-      background-color: #aecaf3;
+      background-color: #f8cfef;
+     font-family: 'Mukta', sans-serif;
+     font-weight: 400;
+     margin: auto;
     }
   
  
