@@ -178,30 +178,32 @@ body {
 
 /* Left column */
 .column.side {
-  width: 35%;
+  width: 30%;
   padding: 20px;
-  padding-left: 25px;
+  padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;
   text-align: left;
   font-family: 'Mukta', sans-serif;
-  font-size: .8em;
+  font-size: .9em;
   line-height: 1.1;
-  background-color: #ffb05f;
+  background-color: #bac636;
   height: 1000px;
-  overflow: hidden;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 /* Middle column */
 .column.middle {
-  width: 65%;
+  width: 70%;
   padding-top: 5px;
-  padding-left: 40px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: 'Mukta', sans-serif;
   height: 1000px;
   overflow-x: hidden;
   scrollbar-color: #ffb05f;
+  scrollbar-width: none;
 }
 
 /* right column */
