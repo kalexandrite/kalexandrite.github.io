@@ -181,15 +181,15 @@ body {
   width: 30%;
   padding: 20px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 25px;
   padding-top: 15px;
   text-align: left;
   font-family: 'Mukta', sans-serif;
   font-size: .9em;
-  line-height: 1.1;
-  background-color: #bac636;
-  height: 1000px;
-  overflow-x: auto;
+  line-height: 1.2em;
+  background-color: #cae843;
+  height: 1200px;
+  overflow: hidden;
   scrollbar-width: none;
 }
 
@@ -197,10 +197,11 @@ body {
 .column.middle {
   width: 70%;
   padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 5%;
   font-family: 'Mukta', sans-serif;
-  height: 1000px;
+  height: 1200px;
   overflow-x: hidden;
   scrollbar-color: #ffb05f;
   scrollbar-width: none;
