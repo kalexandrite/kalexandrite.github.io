@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Look at the style element for the font import and the grid elements  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+        body {
+            font-family: 'Pacifico', cursive;
+            background-color: rgb(28, 110, 129);
+            background-image: url(images/patterns/IMG_4778.png);
+            background-blend-mode: multiply;
+            padding: 5px;
+            color: rgb(172, 216, 255);
+            margin-top: -20px;
+
+        }
+
+        h1 {
+            font-size: 1em;
+        }
+
+        .grid-container {
+            display: grid;
+            gap: -10px;
+            grid-template-columns: 25% 25% 25% auto;
+            grid-template-rows: auto;
+            margin: -10px;
+            z-index: -1;
+        }
+
+        .grid-item {
+            border: -10px;
+            padding: -10px;
+            max-width: -10px;
+            font-size: auto;
+            text-align: center;
+            z-index: 0;
+        }
+
+
+        .grid-container2 {
+            display: grid;
+            gap: -10px;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+            margin: -10px;
+            z-index: 1;
+        }
+
+        .grid-item2 {
+            border: -10px;
+            padding: -10px;
+            max-width: -10px;
+            font-size: auto;
+            text-align: center;
+            z-index: 0;
+        }
+
+        .textabove {
+            position: absolute;
+            bottom: 50%;
+            left: 20%;
+            text-align: left;
+            margin: 10px;
+            padding-right: 10px;
+            padding: 10px;
+            color: #0d0101;
+            font-size: 1em;
+            background-color: blanchedalmond; 
+            opacity: 70%;
+            border-radius: 40%;
+            border-width: 5em;
+            border-color: transparent;
+            z-index: 100;
+        }
+        .imageabove{
+            position: absolute;
+            bottom: 2%;
+            left: 30px;
+            height: 30%;
+            z-index:99 ;
+            border-radius: 10em;
+            border-width: -20em;
+            border-color: transparent;
+            overflow: hidden;
+        }
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <!-- 1 -->
+    <p> <h1>REMEMBER:</h1></p>
+    <p>You can also have things that are outside the grid and the grid can be positioned absolutely or relatively </p>
+    <div class="imageabove">
+        <!-- notice how this div border creates a crop on the image to make it round -->
+        <img src="images/patterns/eyeball.png" width="20px" height="30px" alt=eyeball">
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="images/patterns/IMG_4767.png" alt="pattern1">
+
+        </div>
+        <!-- 2 -->
+        <div class="grid-item">
+            <img src="images/patterns/IMG_4770.png" alt="pattern2">
+        </div>
+        <!-- 3 -->
+        <div class="grid-item">
+            <img src="images/patterns/IMG_4776.png" alt="pattern3">
+        </div>
+        <div class="grid-item">
+            <img src="images/patterns/IMG_4778.png" alt="pattern5">
+        </div>
+    </div>
+    <div class="textabove">
+        <p>And...what if I want to place something in the middle of this?</p>
+    </div>
+    <!--NEW GRID -->
+    <div class="grid-container2">
+        <!-- 4 -->
+        <div class="grid-item">
+            <img src="images/patterns/IMG_4777.png" alt="pattern4">
+        </div>
+        <!-- 5 -->
+
+        <!-- 6 -->
+        <div class="grid-item">
+            <img src="images/patterns/IMG_4864.png" alt="pattern6">
+        </div>
+        <!-- 7 -->
+        <div class="grid-item2">
+            <img src="images/patterns/IMG_4865.png" alt="pattern7">
+        </div>
+        <div class="grid-item2">
+            <img src="images/patterns/IMG_4866.png" alt="pattern8">
+        </div>
+        <div class="grid-item2">
+            <img src="images/patterns/IMG_4867.png" alt="pattern9">
+        </div>
+        <div class="grid-item2">
+            <img src="images/patterns/IMG_4868.png" alt="pattern10">
+        </div>
+
+
+    </div>
+
+</body>
+</html>

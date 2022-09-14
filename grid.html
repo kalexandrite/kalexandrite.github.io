@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Look at the style element for the font import and the grid elements  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+        .grid-container {
+            display: grid;
+            margin: 50px;
+            gap: 10px 10px;
+            grid-template-columns: 500px 100px auto;
+            grid-template-rows: 100px 400px 600px;
+            background-color: #005092;
+        }
+
+        .grid-item {
+            background-color: rgba(174, 211, 192, 0.8);
+            border: 10px dashed #fd5453;
+            padding: 5px;
+            padding-bottom: 15px;
+            font-size: 1em;
+            text-align: center;
+            font-family: 'Nabla', cursive;
+        }
+
+        body {
+            background-image: url(images/patterns/IMG_4869.png);
+        }
+
+        img {
+            height: fit-content;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1 -->
+    <div class="grid-container">
+        <div class="grid-item">
+            <p>Link to a <a href="https://www.w3schools.com/howto/howto_css_two_columns.asp">2 column template</a></p>
+        </div>
+        <!-- 2 -->
+        <div class="grid-item" style="font-family:Arial, Helvetica, sans-serif; font-size:x-small">
+            <p>You can download this file to see the code</p>
+        </div>
+        <!-- 3 -->
+        <div class="grid-item">
+            <img src="images/divider_121.gif" alt="houses in a row">
+        </div>
+        <!-- 4 -->
+        <div class="grid-item" style="font-size:3em; background-color:darkgreen">
+            <p>Link to a <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns">3 column
+                    template</a></p>
+        </div>
+        <!-- 5 -->
+        <div class="grid-item"
+            style="background-color: #f1f1f1; font-size:x-small;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+            THIS IS A CSS ADJUSTMENT IN THE DOC
+        </div>
+        <!-- 6 -->
+        <div class="grid-item"
+            style="background-color:#e56fbc; font-family:Georgia, Times, serif; color:white; align:center; padding:25px;">
+            <p>This is an example of how you can use <a href="https://www.w3schools.com/css/css_howto.asp">inline
+                    CSS</a>to make changes within the body of the document</p>
+        </div>
+        <!-- 7 -->
+        <div class="grid-item"
+            style="background-color: #f1f1f1; font-size:3em ;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+            <p>Link to <a href="https://fonts.google.com/?category=Display,Handwriting">google fonts</a> to personalize
+                your typography</p>
+            <p>Link to a <a href="grid2.html">another grid as an example.</a></p>
+        </div>
+        <!-- 8 -->
+        <div class="grid-item"
+            style="font-size:1em; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">
+            <p>YOU PROBABLY DON"T WANT TO MAKE YOUR PAGE LOOK LIKE THIS BUT YOU CAN GET IDEAS OF WHAT YOU WOULD PUT HERE
+                INSTEAD</p>
+        </div>
+        <!-- 9 -->
+        <div class="grid-item">
+            <p><img src="images/katewithbulldogsuffrage.jpeg" width=300px alt="suffragette that looks like me"></p>
+        </div>
+    </div>
+
+</body>
+</html>
