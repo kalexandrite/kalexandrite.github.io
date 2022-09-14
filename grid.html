@@ -5,6 +5,11 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 
+        body {
+            background-image: url(images/patterns/IMG_4869.png);
+            font-size: 18px;
+        }
+
         .grid-container {
             display: grid;
             margin: 50px;
@@ -24,12 +29,38 @@
             font-family: 'Nabla', cursive;
         }
 
-        body {
-            background-image: url(images/patterns/IMG_4869.png);
-        }
-
         img {
-            height: 50%;
+            height: 25%;
+        }
+        .grid-item2
+        {
+            background-color: #f1f1f1; 
+            font-size:3em ;
+            font-family:Arial, Helvetica, sans-serif;
+            padding: 5px;
+            padding-bottom: 10px;
+            font-size: .5em;
+            text-align: right;
+        }
+        .grid-item7
+        {
+            background-color: #f1f1f1; 
+            font-size:3em ;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 5px;
+            padding-bottom: 15px;
+            font-size: 2em;
+            text-align: center;
+        }
+        .grid-item8
+        {
+            background-color: #a5f8f1; 
+            font-size:3em ;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 5px;
+            padding-bottom: 15px;
+            font-size: 1em;
+            text-align: center;
         }
     </style>
 </head>
@@ -41,8 +72,8 @@
             <p>Link to a <a href="https://www.w3schools.com/howto/howto_css_two_columns.asp">2 column template</a></p>
         </div>
         <!-- 2 -->
-        <div class="grid-item" style="font-family:Arial, Helvetica, sans-serif; font-size:x-small">
-            <p>You can download this file to see the code</p>
+        <div class="grid-item2">
+            <p>You can inspect the file to see the different CSS modes! </p>
         </div>
         <!-- 3 -->
         <div class="grid-item">
@@ -61,19 +92,20 @@
         <!-- 6 -->
         <div class="grid-item"
             style="background-color:#e56fbc; font-family:Georgia, Times, serif; color:white; align:center; padding:25px;">
-            <p>This is an example of how you can use <a href="https://www.w3schools.com/css/css_howto.asp">inline
-                    CSS</a>to make changes within the body of the document</p>
+            <p>This is an example of how <a href="https://www.w3schools.com/css/css_howto.asp">inline
+                    CSS</a> overides external css, and page specific css - it is made within the body of the document</p>
         </div>
         <!-- 7 -->
-        <div class="grid-item"
-            style="background-color: #f1f1f1; font-size:3em ;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+        <div class="grid-item7">
             <p>Link to <a href="https://fonts.google.com/?category=Display,Handwriting">google fonts</a> to personalize
                 your typography</p>
-            <p>Link to a <a href="grid2.html">another grid as an example.</a></p>
+            <p>Link to a <a href="grid2.html">another grid as an example.
+            </a></p>
+            <p>These changes are made using page specific css and div classes</p>
+        
         </div>
         <!-- 8 -->
-        <div class="grid-item"
-            style="font-size:1em; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">
+        <div class="grid-item8">
             <p>YOU PROBABLY DON"T WANT TO MAKE YOUR PAGE LOOK LIKE THIS BUT YOU CAN GET IDEAS OF WHAT YOU WOULD PUT HERE
                 INSTEAD</p>
         </div>
