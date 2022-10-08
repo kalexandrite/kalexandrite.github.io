@@ -6,19 +6,19 @@ h1 {
 
 h2 {
   font: center;
-  text-shadow: 1px 1px #00050a;
+  text-shadow: 1px 1px #225f9c;
 }
 
 h3 {
-  font-size: 1.3em;
-  text-shadow: 1px 1px #c4e2ff;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px #8df2ff;
 }
 
 a {
-  color: #f8f8e9;
-  font-size: 1em;
+  color: #9dcff8;
+  font-size: 1rem;
   font-family: 'Mukta';
-  text-shadow: 1px 1px #010102;
+  text-shadow: 1px 1px #0b0b92;
   font-weight: 400;
   text-decoration: none;
 }
@@ -29,8 +29,8 @@ a {
 }
 
 .highlight2 {
-  color: #e864d2;
-  text-shadow: 1px 1px #000000;
+  color: #fa80e6;
+  text-shadow: 1px 1px #060194;
   font-family: 'Silkscreen', 'Lato', sans-serif;
 }
 
@@ -57,7 +57,7 @@ a {
 
 body {
   margin: 0;
-  background-color: #aecaf3;
+  background-color: #3284ff;
 }
 
 
@@ -107,7 +107,7 @@ body {
 
 .header {
   font-family: 'Silkscreen', 'Lato', sans-serif;
-  background-color: #aecaf3;
+  background-color: #63a1ff;
   padding-left: 30px;
   padding: bottom 0;
   text-align: left;
@@ -121,7 +121,7 @@ body {
   font-family: 'Mukata', sans-serif;
   font-size: 1em;
   font-weight: 200;
-  color: #350e28;
+  color: #210919;
   font-style: normal;
 
 
@@ -173,7 +173,7 @@ body {
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  background-color: #00bf66;
+  background-color: #fcc41d;
 }
 
 /* Left column */
@@ -187,7 +187,7 @@ body {
   font-family: 'Mukta', sans-serif;
   font-size: .9em;
   line-height: 1.2em;
-  background-color: #cae843;
+  background-color: #9d2eec;
   height: 1200px;
   overflow: hidden;
   scrollbar-width: none;
