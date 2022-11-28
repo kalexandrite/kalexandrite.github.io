@@ -16,7 +16,7 @@ body {
 
 
 h1 {
-  font-size: 2em;
+  font-size: 1.9rem;
 }
 
 h2 {
@@ -547,4 +547,11 @@ tbody.collapse.in {
   -webkit-transition-timing-function: ease;
   -o-transition-timing-function: ease;
   transition-timing-function: ease
+}
+.wiggle{
+  display: flex;
+  background-image: url("images/divider_87.gif");
+  background-repeat: fill;
+  ba
+
 }

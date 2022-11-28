@@ -171,14 +171,14 @@ body {
 
 .resources {
   font-family: 'Mukta', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   kerning: 3px;
   font-size: 1em;
   line-height: 1.3em;
   padding: 30px;
   color: #df30a5;
   text-shadow: 1px 1px #000000;
-  background-color: #006205;
+  background-color: #197e1e;
 }
 
 /* Change color on hover */
@@ -551,3 +551,8 @@ form div option {
     text-align: center;    
 }
 
+.wiggle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

@@ -15,12 +15,17 @@
       width: 100%;
     }
   </style>
+  <script src="lib/anime.js"></script>
 </head>
 <body>
   <!--header-->
   <div class="header">
-    <h1>WEB-BASED MULTIMEDIA COMMUNICATION <br><i>ISS, VMS, CMAC 240L & 740L</i></h1> <img src=images/divider_87.gif
-      alt="shaped for learning" width="1000px">
+    <h1>WEB-BASED MULTIMEDIA COMMUNICATION <br><i>ISS, VMS, CMAC 240L & 740L</i></h1> 
+     <div class="wiggle">
+      <p></p>
+     </div>
+  </div>
+  </div>
   </div>
   </div>
   <div class="topnav">
@@ -763,5 +768,19 @@
   </div>
   </div>
 </body>
-
+<script src="lib/anime.js"></script>
+<script src="lib/anime.min.js"></script>
+<script>
+  anime({
+    targets: '.wiggle'
+    translateX: 270,
+    easing: 'easeInElastic(.9, .6)'
+  });
+  
+  anime({
+    targets: '.wiggle','img',
+    translateX: 270,
+    easing: 'easeOutElastic(1, .6)'
+  });
+  </script>
 </html>

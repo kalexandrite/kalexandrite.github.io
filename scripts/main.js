@@ -2,6 +2,7 @@ var htmlElem = document.querySelector('html');
 
 var bgcolorForm = document.getElementById('bgcolor');
 
+
 if(!localStorage.getItem('bgcolor')) {
   populateStorage();
 } else {
