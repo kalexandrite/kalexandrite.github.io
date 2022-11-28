@@ -13,10 +13,8 @@ body {
   list-style:upper-latin;
 }
 
-
-
 h1 {
-  font-size: 1.9rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -93,8 +91,8 @@ a {
   color: #621091;
   font-size: 1em;
   font-family: 'Mukta', sans-serif;
-  font-weight: 400;
   text-decoration: underline;
+  font-weight: 800;
 }
 
 .readings {
@@ -127,11 +125,20 @@ a {
   overflow: hidden;
 }
 
+.normal {
+  font-family: 'Mukata', sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #210919;
+  font-style: normal;
+
+}
+
 /* style for top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: rgb(232, 99, 210);
-  font-size: 1.2em;
+  font-size: 1.3rem;
 
 }
 
@@ -147,23 +154,22 @@ a {
   padding-left: 25px;
   text-decoration: none;
   font-family: 'Mukta', sans-serif;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 800;
+  font-size: 1rem;
   text-shadow: 1px 1px #042516;
 }
 
 .resources {
   font-family: 'Mukta', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   kerning: 3px;
-  font-size: 1.1em;
-  line-height: 1.4em;
+  font-size: 1em;
+  line-height: 1.3em;
   padding: 30px;
   font-style: normal;
   color: #df30a5;
   text-shadow: 1px 1px #000000;
-  background-color: #00bf66;
-
+  background-color: #0a440d;
 }
 
 /* Change color on hover */
@@ -171,7 +177,6 @@ a {
   background-color: rgb(255, 255, 144);
   color: #ff6666;
 }
-
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
@@ -551,7 +556,9 @@ tbody.collapse.in {
 .wiggle{
   display: flex;
   background-image: url("images/divider_87.gif");
-  background-repeat:repeat-x;
+  background-repeat:no-repeat;
+  background-size: cover;
+  margin: 1px;
 }
 
 .wiggle:hover {
@@ -572,4 +579,3 @@ tbody.collapse.in {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-</style>

@@ -9,7 +9,7 @@ html {
 }
 
 h1 {
-  font-size: 1.9rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: rgb(255, 171, 247);
   text-shadow: 2px 2px #031e0f;
 }
@@ -28,7 +28,10 @@ h4 {
   text-shadow: 1px 1px #66f7a5;
   text-align: left;
 }
-
+h5 {
+  font-size: 1rem;
+  color: #621091;
+}
 
 a {
   color: #bce1fffa;
@@ -37,7 +40,7 @@ a {
   text-shadow: 1px 1px #0f0f50;
   font-weight: 800;
   text-decoration: none;
-  line-height: 1.1em;
+  line-height: 1.2em;
   text-align: center;
 }
 
@@ -129,9 +132,9 @@ body {
   padding-left: 30px;
   padding: bottom 0;
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.1em;
   font-family: 'Silkscreen', sans-serif;
-  text-shadow: 1px 2px #ffd5fe;
+  text-shadow: 1px 1px #ff9bfd;
   overflow: hidden;
 }
 
@@ -148,7 +151,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: rgb(232, 99, 210);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 
 }
 
