@@ -12,7 +12,8 @@ h1 {
     font-size: 1.3em;
     text-shadow: 1px 1px #c4e2ff;
   }
-a
+
+  a
 {
     color: #350e28;
     font-family: 'mukata',sans-serif;
@@ -39,7 +40,6 @@ font-style:oblique;
     font-family: 'Silkscreen', 'Lato', sans-serif;
     color: #5aa6f3;
     font-size: 1.4em;
-  
   }
   
   .p {
@@ -220,10 +220,8 @@ font-style:oblique;
   
     .column.side,
     .column.middle,
-    .column.sideb,
-    {
+    .column.sideb, {
     width: 100%;
-  }
   }
   
   .footer.a {
@@ -255,15 +253,11 @@ font-style:oblique;
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
-  
     .footer.a,
-    .footer.b,
-    {
+    .footer.b, {
     width 100%;
   }
-  }
-  
-  
+}
   /* Create 2 unequal columns that floats next to each other */
   
   .calendar {
@@ -276,7 +270,6 @@ font-style:oblique;
     text-justify: left;
     background-color: #00bf66;
     text-shadow: 1px 1px #f048b8;
-  
   
   }
   
@@ -300,10 +293,8 @@ font-style:oblique;
   @media screen and (max-width: 600px) {
   
     .calendar,
-    .specific.assignments,
-    {
+    .specific.assignments {
     width: 100%;
-  }
   }
   
   /* Clear floats after the columns */

@@ -1,6 +1,8 @@
 var htmlElem = document.querySelector('html');
 
+
 var bgcolorForm = document.getElementById('bgcolor');
+
 
 if(!localStorage.getItem('bgcolor')) {
   populateStorage();
@@ -8,19 +10,21 @@ if(!localStorage.getItem('bgcolor')) {
   setStyles();
 }
 
+
+
 function populateStorage() {
   localStorage.setItem('bgcolor', document.getElementById('bgcolor').value);
-  setStyles();
+
 }
 
 function setStyles() {
   var currentColor = localStorage.getItem('bgcolor');
 
-
   document.getElementById('bgcolor').value = currentColor;
 
-
   htmlElem.style.backgroundColor = '#' + currentColor;
+
 }
+
 
 bgcolorForm.onchange = populateStorage;
