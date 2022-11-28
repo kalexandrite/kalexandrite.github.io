@@ -7,7 +7,5 @@
     "scripts/jscolor.js", 
     "scripts/event.js", 
     "scripts/colorSave.js",
-    "lib/anime.js",  
-    "lib/anime.js">,
  ]
 }
