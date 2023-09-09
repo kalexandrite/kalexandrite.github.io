@@ -556,8 +556,8 @@ tbody.collapse.in {
 .wiggle{
   display: flex;
   background-image: url("images/divider_87.gif");
-  background-repeat:no-repeat;
-  background-size: cover;
+  background-repeat:repeat-x;
+  background-size: fill;
   margin: 1px;
 }
 
@@ -579,3 +579,4 @@ tbody.collapse.in {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+

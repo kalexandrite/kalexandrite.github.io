@@ -4,8 +4,8 @@
 
 
 html {
-	background-color: #FF0000;
-	height: 100%;
+  background-color: #FF0000;
+  height: 100%;
 }
 
 h1 {
@@ -22,12 +22,14 @@ h3 {
   color: rgb(255, 171, 247);
   text-shadow: 2px 2px #031e0f;
 }
+
 h4 {
   text-transform: uppercase;
   font-size: .9rem;
   text-shadow: 1px 1px #66f7a5;
   text-align: left;
 }
+
 h5 {
   font-size: 1rem;
   color: #621091;
@@ -250,13 +252,15 @@ body {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) 
+@media screen and (max-width: 800px) {
 
   .column.side,
   .column.middle,
-  .column.sideb,{
-  width: 100%;
+  .column.sideb {
+    width: 100%;
   }
+}
+
 .footer.a {
   float: left;
   width: 50%;
@@ -286,13 +290,12 @@ body {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
 
   .footer.a,
-  .footer.b,
-  {
-  width 100%;
-}
+  .footer.b {
+    width: 80%;
+  }
 }
 
 
@@ -305,7 +308,6 @@ body {
   padding-right: 10px;
   font-family: 'Mukta', sans-serif;
   line-height: 1.1;
-  text-justify: left;
   background-color: #00bf66;
   text-shadow: 1px 1px #f048b8;
 
@@ -330,8 +332,7 @@ body {
 @media screen and (max-width: 600px) {
 
   .calendar,
-  .specific.assignments,
-  {
+  .specific.assignments{
   width: 100%;
 }
 }
@@ -525,33 +526,34 @@ form div label {
 
 }
 
-form div input, form div select {
-	float: left;
+form div input,
+form div select {
+  float: left;
 }
 
 form div input {
   display: inline;
-	width: 5rem;
+  width: 5rem;
   margin: 5px;
   margin-bottom: 0px;
-	line-height: 1rem;
+  line-height: 1rem;
   text-align: center;
 }
 
 
 form div select {
-	width: 90%;
+  width: 90%;
   margin right: 10px;
   margin left: 10px;
   margin: 10px;
-	line-height: 2rem;
+  line-height: 2rem;
   text-align: center;
 }
 
 form div option {
-		height: 1rem;
-    margin: 1rem;
-    text-align: center;    
+  height: 1rem;
+  margin: 1rem;
+  text-align: center;
 }
 
 .wiggle {

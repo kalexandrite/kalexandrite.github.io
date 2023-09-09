@@ -1,0 +1,12 @@
+{
+  "extensions": [
+	"esbenp.prettier-vscode",
+	"dbaeumer.vscode-eslint",
+	"ritwickdey.LiveServer",
+	"AntiAntiSepticeye.vscode-color-picker",
+	"tushortz.pygame-snippets",
+	"Zignd.html-css-class-completion",
+	"sidthesloth.html5-boilerplate",
+	"ms-vscode-remote.remote-containers"
+]
+}

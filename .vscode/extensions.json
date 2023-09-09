@@ -1,6 +1,15 @@
 {
-    "recommendations": [
-        "max-ss.cyberpunk",
-        "iamkd.one-monokai-italics"
-    ]
+  "recommendations": [
+    "max-ss.cyberpunk",
+    "antiantisepticeye.vscode-color-picker",
+    "sidthesloth.html5-boilerplate",
+    "royaction.color-manager",
+    "jzmstrjp.color-the-tag-name",
+    "eppz.eppz-code",
+    "jabedhossain.web-preview",
+    "assisrmatheus.sidebar-markdown-notes",
+    "jccr.sandbox",
+    "johnpapa.vscode-peacock",
+    "formulahendry.auto-rename-tag"
+  ]
 }
