@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="assignments.css">
+    <title>cmac 240 class site</title>
+    <meta charset="utf-8">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,900&family=Mukta:wght@200;500;600;800&family=Roboto:ital,wght@0,300;0,900;1,500&family=Silkscreen&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <h3>Schedule for WEB-BASED MULTIMEDIA COMMUNICATION </h3>
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse1">
+                            <h3>History and Understanding the Cultural Context of the Internet </h3>August 31, 2022
+                            (Wed)
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <p><a href=" https://www.are.na/block/8962006** ">Russell, Legacy. <i>Glitch Feminism: A
+                                        Manifesto.</i> Verso, 2020. Print. </a>
+                            <h4>Read Introduction and Chapter 1 (to page 37 in the printed copy. Link Available online
+                                or PDF by request.</h4>
+                            </p>
+                        </li>
+                        <li class="list-group-item">
+                            <h4>Tutorials for next week</h4>
+                            <h3 id=""></h3>
+                            <p><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Free Code Camp
+                                    Lesson - Learn HTML by Building a Cat Photo App (1-68)</a></p>
+                            <p>or</p>
+                            <p><a href="https://www.internetingishard.com/html-and-css/">HTML & CSS Is Hard | A friendly
+                                    web development tutorial</a> Introduction, Basic Web Pages and Links and Images</p>
+                            <h4>Suggested Tutorial on Linkedin Learning: </h4>
+                            <p><a
+                                    href="https://www.linkedin.com/learning-login/share?account=77842946&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-essential-training-4%3Ftrk%3Dshare_ent_url%26shareId%3D93acDJR9TVubdOVAxBg6qg%253D%253D">HTML
+                                    Essential Training</a></p>
+                        </li>
+                        <li class="list-group-item">
+                            <p>
+                            <h3>Assignment: Community Field Research</h3>
+                            </p>
+
+                            <p> Reach out to at least 3 people from your community (at home, where family is, where you
+                                want to live, where you grew up). Try to find out what internet service is available in
+                                their area. What kind of connections are offered (cable, dial-up, fiber, ?) Ask the
+                                oldest person you can get ahold of when they first remember the internet being used and,
+                                if they have access, how and what they use it for. Ask the youngest person you know the
+                                same questions. Then find at least one person in your field, or at least research to the
+                                best you can and try to determine how they use the internet, web design, or web
+                                communication. Ideally you will feel able to understand how the internet functions both
+                                for your community and in the field that you will be working in. Consider who is left
+                                out of this research and what requirements the “normal” technology obligate.</p>
+                            <p>Write a short summary of these findings and submit it to the homework folder “personal
+                                history of the internet”.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <h3>Download</h3>
+                            <p> <a href="https://code.visualstudio.com/">Visual Studio Code</a> (free download), a code
+                                editor for creating and editing .html, .css, and .js files</p>
+                            <p>or</p>
+                            <p> <a href="https://www.sublimetext.com/">Sublime Text</a> </p>
+                        </li>
+                        <div class="panel-footer">Please submit on <a
+                                href="Find our class page at: https://piazza.com/duke/fall2022/issvmscmac240l740l/home">Piazza</a>
+                            Before Class</div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container"></div>
+    </div>
+    <div class="container">
+
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse2">
+                            <h3>Design Fundamentals and Communication</h3>
+                            <h4>September 5, 2022 (Mon)</h4>
+                        </a>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h4>
+                                <p>Vision Board for the Future</p>
+                            </h4>
+                            <p>My goal is for you to think about our conversation and have you dream about <i>who</i>
+                                and <i>how</i> and <i>why</i> you want to empower through your designs on the internet.
+                                Collect images and texts that will function as your vision board and start your archive
+                                for a future you want to design. </p>
+                            <p> Find and bring to class at least 5 images and 3 texts, these can be anything you have
+                                seen, drawn, found, read, written, and mostly anything else you can collect in some way.
+                                These don’t necessarily have to be digital. We will be discussing how to digitize images
+                                and image formats in class. This is also the start of our fortune telling project, and
+                                the material you will in part be pulling from for our next project, so ideally they are
+                                texts and images you are comfortable sharing with the class. </p>
+                            <p>
+                            <h3>Bring images and text to class! Have them in a folder, or a pile - but accesible and
+                                ready to share.</h3>
+                        </li>
+                        <li class="list-group-item">
+                            <h4>Tutorials: Have Finished Either:</h4>
+                            <h3 id=""></h3>
+                            <p><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Free Code Camp
+                                    Lesson - Learn HTML by Building a Cat Photo App (1-68)</a></p>
+                            <p>or</p>
+                            <p><a href="https://www.internetingishard.com/html-and-css/">HTML & CSS Is Hard | A friendly
+                                    web development tutorial</a> Introduction, Basic Web Pages and Links and Images</p>
+                            <h4>Suggested Tutorial on Linkedin Learning: </h4>
+                            <p><a
+                                    href="https://www.linkedin.com/learning-login/share?account=77842946&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-essential-training-4%3Ftrk%3Dshare_ent_url%26shareId%3D93acDJR9TVubdOVAxBg6qg%253D%253D">HTML
+                                    Essential Training</a></p>
+                            <h3> We will be using the basics of HTML in lab today. (woo!)</h3>
+                        </li>
+
+                        <li class="list-group-item">
+                            <h3>Have Downloaded and Gotten Familiar with: </h3>
+                            <p> <a href="https://code.visualstudio.com/">Visual Studio Code</a></p>
+                            <p>or</p>
+                            <p> <a href="https://www.sublimetext.com/">Sublime Text</a> </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse3">
+                            <h4>September 7, 2022 (Mon)</h4>
+                        </a>
+                </div>
+
+                <div id="collapse3" class="panel-collapse collapse">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+
+                            <h4>title</h4>
+                            <p>Text</p>
+
+                        </li>
+                        <li class="list-group-item">
+                            <h4>Title</h4>
+                            Text
+                        </li>
+                        <li class="list-group-item">
+
+                        <li class="list-group-item">
+                            <h3>Title</h3>
+                            <p>Text</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container"></div>
+    </div>
+    <div class="container">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse5">
+                            <h3>Code as Language - Linguistic Habitus</h3>
+                            <h4>September 12, 2022 (Mon)</h4>
+                        </a>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+    
+                                <h4>Assignment will be posted 1 week before class</h4>
+                               
+    
+                            </li>
+                            <li class="list-group-item">
+                                <h4>Title</h4>
+                                Text
+                            </li>
+                            <li class="list-group-item">
+    
+                            <li class="list-group-item">
+                                <h3>Title</h3>
+                                <p>Text</p>
+                            </li>
+                        </ul>
+                </div>
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse6">
+                            <h4>September 14, 2022 (Wed)</h4>
+                        </a>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+
+                            <h4>title</h4>
+                            <p>Text</p>
+
+                        </li>
+                        <li class="list-group-item">
+                            <h4>Title</h4>
+                            Text
+                        </li>
+                        <li class="list-group-item">
+                            <h4>Title</h4>
+                            Text
+                        </li>
+                        <li class="list-group-item">
+                            <h3>Title</h3>
+                            <p>Text</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse5">
+                            <h3>Title</h3>
+                            <h4>Date</h4>
+                        </a>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+    
+                                <h4>title</h4>
+                                <p>Text</p>
+    
+                            </li>
+                            <li class="list-group-item">
+                                <h4>Title</h4>
+                                Text
+                            </li>
+                            <li class="list-group-item">
+    
+                            <li class="list-group-item">
+                                <h3>Title</h3>
+                                <p>Text</p>
+                            </li>
+                        </ul>
+                </div>
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse6">
+                            <h4>Date</h4>
+                        </a>
+                </div>
+
+</body>
+</html>
